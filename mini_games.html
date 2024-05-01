@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, inital-scale=1-0">
+    <title>Mini Games</title>
+    <link rel="icon" type="image/x-icon" href="bow.jpg">
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body> 
+    <div class="header">
+        <a href="index.html" class="logo"><img src="logo.png" height="70" width="auto"></a>
+    </div>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="author.html">Author</a>
+        <a href="adaptations.html">Adaptations</a>
+        <a href="characters.html">Major Characters</a>
+        <a class="active" href="mini_games.html">Mini Game</a>
+    </div>
+    <div class="modal">
+        <div class="content">
+            <h4>Game Over!</h4>
+            <p>The correct word was: random</p>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman">
+            <img src="#" draggable="false" alt="hangman-img">
+            <h1>Hangman</h1>
+        </div>
+        <div class="box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">Hint: <b></b></h4>
+            <h4 class="guesses-text">Guesses: <b></b></h4>
+            <div class="keyboard"></div>
+        </div>
+        <script src="words.js" defer></script>
+        <script src="index.js"" defer></script>
+    </div>
+</body>
+</html>
